@@ -626,3 +626,9 @@ footer .inner {
     color: #61443a;
     font-size: 1.13em;
 }
+
+.popup {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
