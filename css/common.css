@@ -1,0 +1,43 @@
+/* 공통사항 */
+/* 바깥여백 :0, 안쪽여백:0, 박스사이즈 :border,padding을 포함하도록*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+/* 밑줄제거, 글자색은 부모부터 상속받겠다 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 이미지와 비디오는 글자와 입력라인이 달라서 공백이 생김 */
+img,
+video {
+    vertical-align: middle;
+}
+
+/* 주소줄,em */
+address,
+em,
+i {
+    font-style: normal;
+}
+
+/* .blind */
+.blind {
+    position: absolute;
+    top: -9999px;
+}
+
+/* body */
+body {
+    font-family: "Pretendard", sans-serif;
+    color: #222;
+    line-height: 1em;
+}
